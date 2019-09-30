@@ -1,8 +1,0 @@
-package guiao2;
-
-public class Store {
-
-	public Store(){
-		
-	}
-}

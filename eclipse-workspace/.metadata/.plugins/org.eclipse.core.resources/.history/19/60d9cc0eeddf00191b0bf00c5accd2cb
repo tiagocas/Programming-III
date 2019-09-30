@@ -1,7 +1,0 @@
-package guiao1;
-
-public class Menu {
-	private static menu = "";
-	
-	
-}

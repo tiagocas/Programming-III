@@ -1,8 +1,0 @@
-package guiao2;
-
-public class Student extends Person{
-	private int nMec;
-	private String course;
-	
-	Student
-}
