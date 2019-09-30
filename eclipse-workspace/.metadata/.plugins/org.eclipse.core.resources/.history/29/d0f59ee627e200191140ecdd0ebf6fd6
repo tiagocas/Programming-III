@@ -1,0 +1,52 @@
+package guiao2;
+import java.util.HashMap;
+import guiao1.Date;
+
+public class ClientList {
+	private HashMap<Integer,Person> cl;
+	private int id = 0;
+	
+	ClientList(){
+		cl = new HashMap<Integer,Person>();
+		
+	}
+	
+	public void add(Person p) {
+		if(cl.put(this.id,p) != null) {
+			this.id++;
+			System.out.println("Person added successfully");
+		}
+		else {
+			System.err.println("Person not added");
+		}
+	}
+	
+	public void remove(int numMember) {
+		for(int i=0;i<ll.size();i++) {
+			if(ll.get(i).id() == numMember) {
+				ll.remove(i);
+				System.out.println("Person deleted successfuly");
+				break;
+			}
+		}
+		System.out.println("Person not found");
+	}
+	
+	public String list() {
+		String content = "\tClients\n";
+		for(int i = 0 ; i < ll.size(); i++){
+			Person p = ll.get(i);
+			content += p.toString() + "\n";
+		}
+		return content;
+	}
+	public Person search(int numMember) {
+		for(int i = 0; i < ll.size(); i++) {
+			if(ll.get(i).id() == numMember) {
+				return ll.get(i);
+			}
+		}
+		return null;
+	}
+	
+}

@@ -1,0 +1,10 @@
+package guiao1;
+
+public class Menu {
+	private static String menu = "[0] Add circle";
+	
+	public String showMenu() {
+		
+		return "d";
+	}	
+}

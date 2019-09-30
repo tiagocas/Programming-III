@@ -1,0 +1,13 @@
+package guiao1;
+
+public class Rectan implements Figure{
+	private Point rightTop,rightBottom,leftTop,leftBottom;
+	
+	Rectan(Point point, Point point, Point point, Point point){
+		
+	}
+	@Override
+	public String toString() {
+		return "Rectan";
+	}
+}

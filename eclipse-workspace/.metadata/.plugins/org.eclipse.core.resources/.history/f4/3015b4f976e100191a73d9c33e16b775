@@ -1,0 +1,12 @@
+package guiao2;
+
+public class Store {
+	Catalog catalog;
+	Loan loans;
+	ClientList cl;
+	
+	Store(){
+		this.catalog = new Catalog();
+		this.loans = new Load();
+	}
+}

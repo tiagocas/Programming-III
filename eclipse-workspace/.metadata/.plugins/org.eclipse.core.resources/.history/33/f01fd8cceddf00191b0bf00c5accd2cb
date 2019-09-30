@@ -1,0 +1,18 @@
+package guiao1;
+import java.util.Scanner;
+
+public class Menu {
+	static Scanner input;
+	private static String menu = "\n"
+			+ "[0] Add circle\n"
+			+ "[1] Add Square\n"
+			+ "[2] Add Rectangle\n"
+			+ "[3] Get interseption\n"
+			+ "[4] Confirme equality\n";
+	
+	public String showMenu() {
+		input = new Scanner(System.in);
+		System.out.println(menu);
+		return ;
+	}	
+}

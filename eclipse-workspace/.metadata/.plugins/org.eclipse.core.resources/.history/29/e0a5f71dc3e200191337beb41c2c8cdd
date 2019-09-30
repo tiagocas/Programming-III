@@ -1,0 +1,20 @@
+package guiao2;
+import guiao1.Date;
+
+public class Loan {
+	private int id;
+	private int video;
+	private int person;
+	private int video;
+	private Date checkIn;
+	private Date checkOut;
+	
+	public Loan(int id, Video video, Person person, Date checkIn, Date CheckOut) {
+		this.id = id;
+		this.video = this.video.id();
+		this.person = person.id();
+		this.checkIn = checkIn;
+		this.checkOut = checkOut;
+	}
+	
+}

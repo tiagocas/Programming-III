@@ -1,0 +1,47 @@
+package guiao2;
+import guiao1.Date;
+
+public class Person {
+	private int id;
+	private String name;
+	private int cc;
+	private Date birthday;
+	//private Date registrationDate;
+	
+	Person(String name, int cc, Date birthday, int id){
+		if(Date.validDate(birthday.day(),birthday.month(),birthday.year())) {
+			this.name = name;
+			this.cc = cc;
+			this.birthday = birthday;
+		}
+		else {
+			System.out.println("Person not added");
+		}
+		
+	}
+	public void add(String name, int cc, Date birthday) {
+		this.name = name;
+		this.cc = cc;
+		this.birthday = birthday;
+	}
+	
+	Person(String name, String cc, Date birthday){
+		this.name = name;
+		this.cc = Integer.parseInt(cc);
+		this.birthday = birthday;
+	}
+	
+	public int id() {
+		return this.id();
+	}
+	
+	public String name() {
+		return this.name;
+	}
+	
+	public String toString() {
+		return this.name + "\t" + this.cc + "\t" + this.birthday;
+	}
+	
+	
+}

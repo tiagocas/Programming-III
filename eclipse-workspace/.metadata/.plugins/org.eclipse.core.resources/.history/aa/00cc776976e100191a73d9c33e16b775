@@ -1,0 +1,9 @@
+package guiao2;
+
+public class Store {
+	Catalog catalog = new Catalog();
+	
+	Store(){
+		
+	}
+}

@@ -1,0 +1,7 @@
+package guiao2;
+
+public class Student extends ClientList{
+	private int nMec;
+	private String course;
+	
+}

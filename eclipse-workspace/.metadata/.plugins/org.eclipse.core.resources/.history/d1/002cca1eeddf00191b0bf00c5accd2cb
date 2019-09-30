@@ -1,0 +1,7 @@
+package guiao1;
+
+public class Menu {
+	private static String menu = "";
+	
+	
+}

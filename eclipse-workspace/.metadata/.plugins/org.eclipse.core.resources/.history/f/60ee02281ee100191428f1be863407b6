@@ -1,0 +1,8 @@
+package guiao2;
+
+public class Staff extends ClientList{
+
+	Staff(String name){
+		super(new Pessoa("af",12,"31-13-213"));
+	}
+}

@@ -1,0 +1,16 @@
+package guiao1;
+
+public class Rectan implements Figure{
+	private Point rightTop,rightBottom,leftTop,leftBottom;
+	
+	Rectan(Point p1, Point p2, Point p3, Point p4){
+		this.rightTop = p1;
+		this.rightTop = p2;
+		this.rightTop = p3;
+		this.rightTop = p4;
+	}
+	@Override
+	public String toString() {
+		return "Rectan";
+	}
+}

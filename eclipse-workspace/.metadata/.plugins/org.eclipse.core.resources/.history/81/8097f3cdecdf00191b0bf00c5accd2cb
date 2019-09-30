@@ -1,0 +1,14 @@
+package guiao1;
+
+public class Square implements Figure{
+	private Point middle;
+	
+	Square(Point point, double width){
+		this.middle = point;
+		this.width = width;
+	}
+	@Override
+	public String toString() {
+		return "Square";
+	}
+}

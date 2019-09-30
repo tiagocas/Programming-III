@@ -1,0 +1,9 @@
+package guiao2;
+
+public class Staff extends ClientList{
+
+	
+	Staff(String name){
+		super.add();
+	}
+}

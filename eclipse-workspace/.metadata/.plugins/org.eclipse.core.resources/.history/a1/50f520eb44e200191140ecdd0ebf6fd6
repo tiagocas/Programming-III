@@ -1,0 +1,12 @@
+package guiao2;
+
+public class Student extends Person{
+	private int nMec;
+	private String course;
+	
+	public Student(String name, int cc, Date birthday, String course, int nMec) {
+		super(name, cc, birthday);
+		this.nMec = nMec;
+		this.course = course;
+	}
+}

@@ -1,0 +1,13 @@
+package guiao2;
+
+public class Word {
+	private String line[];
+	
+	public Word(int length) {
+		line = new String[length];
+	}
+	
+	public void add(String line) {
+		
+	}
+}

@@ -1,0 +1,10 @@
+package guiao2;
+import guiao1.Date;
+
+public class Staff extends ClientList{
+
+	
+	Staff(String name){
+		super.add(new Person("tiago",413,new Date(2,4,2000)));
+	}
+}

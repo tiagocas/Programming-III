@@ -1,0 +1,19 @@
+package guiao2;
+
+public class Word {
+	private String line[];
+	private int index;
+	
+	public Word(int length) {
+		this.line = new String[length];
+		this.index = 0;
+	}
+	
+	public void add(String line) {
+		if(this.index < this.line.length) {
+			this.line[index] = line;
+			
+			this.index++;
+		}
+	}
+}

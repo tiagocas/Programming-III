@@ -1,0 +1,13 @@
+package guiao2;
+
+public class Store {
+	private Catalog catalog;
+	private Loan loan;
+	private ClientList cl;
+	
+	Store(ClientList cl, Catalog catalog, Loan ln){
+		this.catalog = catalog;
+		this.loan = ln;
+		this.cl = cl;
+	}
+}
