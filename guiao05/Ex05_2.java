@@ -2,7 +2,10 @@ package guiao05;
 
 public class Ex05_2 {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) {							// Ignorar este
+																		// Ignorar este
+																		// Ignorar este
+																		// Ignorar este
 		IVeiculo a = new Aviao("Antonov", "23-01-2000", 16, 11);
 		
 		Policia b = new Aviao("Antonov", "23-01-2000", 16, 11);
